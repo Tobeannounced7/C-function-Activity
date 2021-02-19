@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+  int num1, num2;
+  int sum, sub, mult;
+  float div;
+
+printf("Input any two Integer: ");
+scanf("%d,%d", &num1, &num2);
+sum = num1 + num2;
+sub = num1 - num2;
+mult = num1 * num2;
+div = (float)num1 / num2;
+
+printf("ADDITION : %d\n", sum);
+printf("MULTIPLICATION : %d\n", mult);
+printf("DIVISION : %f\n", div);
+printf("SUBTRACTION : %d\n", sub);
+
+return 0;
+}
