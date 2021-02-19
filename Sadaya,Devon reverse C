@@ -9,6 +9,6 @@ scanf("%d", &n);
     reverse=reverse*10+rem;
     n/=10;
 }
-printf("Revised numbers is : %d", reverse );
+printf("Revised numbers is: %d", reverse );
 return 0;
 }
