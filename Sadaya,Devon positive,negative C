@@ -2,30 +2,16 @@
 
 int main()
 {
-    int num;
+    int A;
+    printf("Enter the number Here: ");
+    scanf("%d", &A);
+    if (A > 0)
+        printf("The integer is a positive number. \n", A);
+    else if (A < 0)
+        printf("The integer is a negative number. \n", A);
+    else if (A == 0)
+        printf("The inputted data is Invalid. \n", A);
 
- printf("Input any integer: ");
- scanf("%d", &num);
 
-    switch (num > 0)
-{
-    case 1:
- printf("The integer is a positve number");
- break;
-
-    case 0:
-    switch (num < 0)
-{
-     case 1:
-  printf("The integer is a negative number");
-  break;
-     case 0:
-  printf("The integer is a zero number");
-  break;
+    return 0;
 }
-  break;
- }
-
-  return 0;
-}
-
