@@ -1,3 +1,8 @@
+// Create a Program that takes a strings from the user input and converts a the vowels into Uppercase.
+// + Print the Inputted String
+// + Print the length of the string
+// + Print the number of consonant and vowels
+
 #include<stdio.h>
 #include<string.h>
 int main()
