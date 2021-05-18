@@ -1,0 +1,29 @@
+//Create Program that adds all the array elements and prints the sum, using recursion
+#include <stdio.h>
+int sumofarray(int a[],int n,int i)
+ {
+if(i<n)
+return a[i]+sumofarray(a,n,++i);
+
+return 0;
+
+ }
+int main()
+{
+int a[10],i,n,sum;
+
+printf("Enter size of the array : ");
+scanf("%d", &n);
+
+for(i=0; i<n; i++)
+    {
+        
+        //input elements
+printf("Enter elements %d : ",i+1);  
+scanf("%d", &a[i]);
+    }
+
+sum=sumofarray(a,n,0);                  
+printf("Sum of all array elements: %d",sum);           //sum of the array
+
+}
