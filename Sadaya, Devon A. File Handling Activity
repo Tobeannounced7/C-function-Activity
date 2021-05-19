@@ -15,7 +15,7 @@ char name[20]="text.txt";
 char str1;
 
 printf("---------------INPUT--------------\n\n");
-printf(" Input the number of lines to be written: ");
+printf(" Input how many lines to be appended: ");
 scanf("%d", &n);
 
 fptr = fopen (name,"w");
